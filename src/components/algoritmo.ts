@@ -92,7 +92,7 @@ const determinarBioclima = (tma: number, pma: number): BioclimasAlgoritmo => {
   if (tma < 21 && pma < 650) {
     return "semifrío seco";
   } else if (tma < 21 && pma >= 650 && pma <= 1000) {
-    return "semifrío seco";
+    return "semifrío";
   } else if (tma < 21 && pma > 1000) {
     return "semifrío húmedo";
   } else if (tma >= 21 && tma <= 26 && pma < 650) return "templado seco";

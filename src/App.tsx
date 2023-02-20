@@ -170,7 +170,7 @@ const App: React.FC = () => {
         pma: Number(estadoDatosAlgoritmo[0].pma)
       }
 
-      const datosAvanzadosAlgoritmo: DatosAvanzadosAlgoritmo = (estadoBotonDatosAvanzadosPresionado) ? {
+      const datosAvanzadosAlgoritmo: DatosAvanzadosAlgoritmo = (estadoBotonDatosAvanzadosPresionado[0]) ? {
         repeticiones: Number(estadoDatosAlgoritmo[0].repeticiones),
         compositores: Number(estadoDatosAlgoritmo[0].compositores),
         maxEvaluaciones: Number(estadoDatosAlgoritmo[0].maxEvaluaciones),
