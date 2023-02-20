@@ -3,24 +3,37 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@capacitor/android": "4.6.3",
     "@capacitor/app": "4.1.1",
     "@capacitor/core": "4.6.3",
     "@capacitor/haptics": "4.1.0",
     "@capacitor/keyboard": "4.1.1",
     "@capacitor/status-bar": "4.1.1",
-    "@ionic/react": "^6.0.0",
-    "@ionic/react-router": "^6.0.0",
+    "@citation-js/core": "^0.6.5",
+    "@emotion/react": "11.10.6",
+    "@emotion/styled": "11.10.6",
+    "@ionic/react": "6.5.4",
+    "@ionic/react-router": "6.5.4",
+    "@mui/icons-material": "5.11.9",
+    "@mui/material": "5.11.9",
+    "@mui/types": "^7.2.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^12.6.3",
     "@types/jest": "^26.0.20",
     "@types/node": "^12.19.15",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "18.0.11",
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
+    "bibliography": "^0.1.0",
+    "bibtex": "^0.9.0",
+    "dateformat": "^5.0.3",
     "history": "^4.9.0",
     "ionicons": "^6.0.3",
+    "local-storage": "^2.0.0",
+    "ml-matrix": "^6.10.4",
+    "number-precision": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.2.0",
@@ -69,7 +82,9 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "4.6.3"
+    "@capacitor/cli": "4.6.3",
+    "@types/dateformat": "^5.0.0",
+    "cordova-res": "0.15.4"
   },
-  "description": "An Ionic project"
+  "description": "Proyecto Terminal"
 }
